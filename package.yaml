@@ -1,5 +1,6 @@
 name: eel-script
 description: eel script
+version: 0.0.0
 repository: github
 dependencies:
   eel-parser:   ">=0.0.0"

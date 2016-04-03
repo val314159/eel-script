@@ -1,15 +1,16 @@
 {
-    "name":"eel-script",
-    "description":"eel script",
-    "repository":"github",
-    "dependencies":{
-	"eel-parser":">=0.0.0",
-	"eel-compiler":">=0.0.0"
-    },
-    "scripts":{
-	"test" :"sh scripts/test.sh",
-	"shell":"sh scripts/shell.sh",
-	"clean":"sh scripts/clean.sh"
-    },
-    "license":"MIT"
+     "version": "0.0.0", 
+     "repository": "github", 
+     "license": "MIT", 
+     "scripts": {
+          "test": "sh scripts/test.sh", 
+          "shell": "sh scripts/shell.sh", 
+          "clean": "sh scripts/clean.sh"
+     }, 
+     "dependencies": {
+          "eel-parser": ">=0.0.0", 
+          "eel-compiler": ">=0.0.0"
+     }, 
+     "name": "eel-script", 
+     "description": "eel script"
 }
